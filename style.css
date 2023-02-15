@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+}
+html{
+    font-size: 62.5%;
+}
+:root{
+--background-color: #e3e6f3;
+--color: #FBEAEB;
+}
+.login-form-container{
+    width: 100%;
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: rgba(0,0,0, .3);
+}
+.login-form-container .form{
+margin: 2rem;
+padding: 1.5rem 4rem;
+border-radius: .5rem;
+background-color: var(--background-color);
+width: 50rem;
+}
+.login-form-container .form h3{
+font-size: 3rem;
+color: #444;
+text-transform: uppercase;
+text-align: center;
+}
+.login-form-container .form .box{
+width: 100%;
+padding: 1rem .5rem;
+font-size: 1.5rem;
+color: #333;
+margin: .6rem 0;
+border: .1rem solid  rgba(0, 0, 0, .1);  
+} 
+.login-form-container .form p{
+color: red;
+font-size: 2rem;
+padding: 2rem;
+}
+.btn{
+display: inline-block;
+margin-top: 1rem; 
+background: #2F3C7E;
+padding: 1rem 3rem;
+color: #fff;
+font-size: 1.5rem;
+border: .2rem solid #2F3C7E;
+cursor: pointer;
+width: 100%;
+} 
+.btn:hover{
+background-color: #fff;
+color: #2F3C7E;
+}
+.message{
+    font-size: 2rem;
+    text-align: center;
+    margin: 5rem 0rem;
+}
+.email{
+    text-transform: lowercase;
+}
+.image{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.image img{
+    width: 200px;
+}
+.input{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0rem;
+}
+.input input{
+padding: 1rem .5rem;
+font-size: 1.5rem;
+color: #333;
+margin: .6rem 0;
+border: .1rem solid  rgba(0, 0, 0, .1);  
+}
+.bt{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0rem;
+}
+.bt button{
+margin-top: 1rem; 
+background: #2F3C7E;
+padding: 1rem 3rem;
+color: #fff;
+font-size: 1.5rem;
+border: .2rem solid #2F3C7E;
+cursor: pointer;
+}
+.hidden{
+    display: none;
+}
+.active{
+    display: block;
+}
+
+@media screen and (max-width:768px) {
+html{
+font-size: 55%;
+}
+}
+@media screen and (max-width:450px) {
+html{
+font-size: 55%;
+}
+}
