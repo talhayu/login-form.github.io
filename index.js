@@ -134,7 +134,7 @@ function addinput() {
     err.textContent = "Please correct the following errors: " + errorMessage;
   }
   
-  console.log(store)
+
 
 
 }
